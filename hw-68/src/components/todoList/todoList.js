@@ -6,9 +6,10 @@ import './todoList.css';
 const TodoList = () => {
   return (
     <div className='todoList'>
-      <form>
+      <form className='inputForm'>
         <input type="text"/>
       </form>
+      Виноват, не успел закончить :(
     </div>
   );
 };
@@ -21,7 +22,7 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    postNewTask: () => dispatch(postNewTask()),
+
   }
 };
 
